@@ -1,4 +1,4 @@
-/* === Base === */
+
 * { box-sizing: border-box; }
 
 body {
@@ -35,7 +35,7 @@ body {
 
 .subtitle {
   color: #cccccc;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 
 /* === Stats === */
@@ -89,12 +89,14 @@ body {
   cursor: pointer;
 }
 
-/* === Book List === */
 .book-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 18px;
+  grid-template-columns: repeat(3, 1fr); /*should get 3 books per row i think*/
+  gap: 20px;
+  justify-items: center;
+  padding: 10px;
 }
+
 
 .book-card {
   background-color: #151516;
