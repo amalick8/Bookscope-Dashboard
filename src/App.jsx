@@ -68,7 +68,7 @@ function App() {
   return (
     <div className="App">
       <header className="header">
-        <h1>BookScope: Harry Potter Dashboard ⚡</h1>
+        <h1>BookScope - Harry Potter Dashboard ⚡️</h1>
         <p className="subtitle">
           Exploring the wizarding world through OpenLibrary data
         </p>
