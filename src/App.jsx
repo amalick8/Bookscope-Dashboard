@@ -94,7 +94,7 @@ function App() {
       </div>
 
       <footer className="footer">
-        <p>Made by a UTA student ✨ using React + OpenLibrary API</p>
+        <p>🐍🦁🐦‍⬛🦡</p>
       </footer>
     </div>
   );
