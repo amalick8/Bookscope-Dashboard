@@ -1,13 +1,11 @@
-/* --- Base Styles --- */
-* {
-  box-sizing: border-box;
-}
+/* === Base === */
+* { box-sizing: border-box; }
 
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
-  background-color: #0c0b10;
-  color: #f8f8e7;
+  background-color: #0b0b0d;
+  color: #f1f1f1;
   display: flex;
   justify-content: center;
 }
@@ -19,28 +17,28 @@ body {
   text-align: center;
 }
 
-/* --- Header --- */
+/* === Header === */
 .header {
-  background: linear-gradient(to right, #15141a, #1f1c25);
-  border: 1px solid #c5a300;
+  background: linear-gradient(135deg, #1b1b1d, #220000);
+  border: 1px solid #e63946;
   border-radius: 12px;
   padding: 20px;
   margin-bottom: 20px;
-  box-shadow: 0 0 15px rgba(255, 215, 0, 0.25);
+  box-shadow: 0 0 20px rgba(230, 57, 70, 0.25);
 }
 
 .header h1 {
-  color: #ffcc00;
+  color: #e63946;
   font-size: 2rem;
-  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
 }
 
 .subtitle {
-  color: #d1cfc5;
-  font-size: 0.95rem;
+  color: #cccccc;
+  font-size: 0.9rem;
 }
 
-/* --- Stats --- */
+/* === Stats === */
 .stats {
   display: flex;
   flex-wrap: wrap;
@@ -50,26 +48,24 @@ body {
 }
 
 .stat-card {
-  background-color: #1a181f;
-  border: 1px solid #ffcc00;
+  background-color: #151516;
+  border: 1px solid #e63946;
+  color: #fff;
   padding: 10px 18px;
   border-radius: 10px;
-  font-weight: 500;
   font-size: 0.9rem;
-  box-shadow: 0 0 6px rgba(255, 215, 0, 0.15);
   transition: all 0.3s ease;
 }
 
 .stat-card:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+  box-shadow: 0 0 10px rgba(230, 57, 70, 0.4);
 }
 
-/* --- Controls --- */
+/* === Controls === */
 .controls {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   gap: 12px;
   margin-bottom: 25px;
@@ -79,43 +75,40 @@ body {
 .filter-dropdown {
   padding: 10px;
   border-radius: 8px;
-  border: 1px solid #ffcc00;
-  background-color: #18171d;
+  border: 1px solid #e63946;
+  background-color: #18181a;
   color: #fff;
   width: 240px;
   outline: none;
 }
 
-.search-bar::placeholder {
-  color: #999;
-}
+.search-bar::placeholder { color: #999; }
 
 .filter-dropdown {
   width: 130px;
   cursor: pointer;
 }
 
-/* --- Book List --- */
+/* === Book List === */
 .book-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 18px;
-  justify-content: center;
 }
 
 .book-card {
-  background-color: #17161b;
-  border: 1px solid #302c38;
+  background-color: #151516;
+  border: 1px solid #29292b;
   border-radius: 12px;
   padding: 15px;
   text-align: center;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
-  box-shadow: 0 0 6px rgba(255, 215, 0, 0.1);
+  box-shadow: 0 0 6px rgba(230, 57, 70, 0.15);
 }
 
 .book-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 0 15px rgba(255, 215, 0, 0.25);
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(230, 57, 70, 0.25);
 }
 
 .book-cover {
@@ -127,23 +120,23 @@ body {
 }
 
 .book-info h3 {
-  color: #ffcc00;
+  color: #e63946;
   font-size: 1rem;
   margin: 5px 0;
 }
 
 .book-info p {
   margin: 3px 0;
-  color: #d1cfc5;
+  color: #d1d1d1;
   font-size: 0.9rem;
 }
 
-/* --- Footer --- */
+/* === Footer === */
 .footer {
   text-align: center;
   margin-top: 40px;
-  color: #b8b7b3;
+  color: #999;
   font-size: 0.85rem;
-  border-top: 1px solid #292830;
+  border-top: 1px solid #2a2a2c;
   padding-top: 10px;
 }

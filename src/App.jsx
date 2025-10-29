@@ -15,7 +15,7 @@ function App() {
     const fetchBooks = async () => {
       try {
         const res = await fetch(
-          "https://openlibrary.org/search.json?q=red+rising&limit=50"
+          "https://openlibrary.org/search.json?q=harry+potter&limit=50"
         );
         const data = await res.json();
         setBooks(data.docs);
