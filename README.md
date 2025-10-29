@@ -6,6 +6,9 @@ A React-based data dashboard that visualizes information from the **OpenLibrary 
 
 ## 🌐 Live Demo
 
+![Screen recording of Bookscope Dashboard](./public/demo/screen-recording.gif)
+
+
 👉 **[View the Live Demo Here](YOUR_LINK_HERE)**  
 
 ---
