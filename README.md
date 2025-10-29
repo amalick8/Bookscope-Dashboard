@@ -1,7 +1,6 @@
 # ⚡ BookScope – Harry Potter Dashboard
 
-A React-based data dashboard that visualizes information from the **OpenLibrary API**, focused on *Harry Potter* books.  
-It shows real-time stats, search and filter options, and a sleek dark Hogwarts-inspired design.
+A React-based data dashboard that visualizes information from the **OpenLibrary API**, focused on *Harry Potter* books. It shows real-time stats, search and filter options, and a sleek dark Hogwarts-inspired design.
 
 ---
 
@@ -13,9 +12,7 @@ It shows real-time stats, search and filter options, and a sleek dark Hogwarts-i
 
 ## 🎯 Project Overview
 
-This dashboard explores the magical world of *Harry Potter* through data.  
-It fetches 50 books using the OpenLibrary API and displays them in a searchable, filterable list.  
-The dashboard includes key summary stats, making it easy to understand patterns in the data (like how many books exist and when most were published).
+This dashboard explores the magical world of *Harry Potter* through data. It fetches 50 books using the OpenLibrary API and displays them in a searchable, filterable list. The dashboard includes key summary stats, making it easy to understand patterns in the data (like how many books exist and when most were published).
 
 ---
 
